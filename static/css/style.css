@@ -1,0 +1,129 @@
+body {
+    font-family: 微软雅黑;
+    background-color: #EEEEEE;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#login h2{
+    text-align: center;
+    font-weight: 100;
+}
+.pg-header {
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-left: 2rem;
+    background-color: #5FAAE8;
+}
+#logo {
+    float: left;
+    padding-top: 0.5rem;
+}
+#dispatcher {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background-image: -webkit-linear-gradient(left, #5FAAE8, #fff, #5FAAE8);
+    background-image: -o-linear-gradient(left, #5FAAE8, #fff, #5FAAE8);
+    background-image: linear-gradient(to right, #5FAAE8, #fff, #5FAAE8);
+}
+#searched {
+    float: right;
+}
+#searched label {
+    color: #fff;
+    font-size: 1.2rem;
+}
+#searched input[type="text"] {
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    width: 183px;
+    height: 37px;
+    margin-right: 1rem;
+    padding: 0 1rem;
+}
+section.ctn-section {
+    max-width: 683px;
+    text-align: center;
+    margin: 1rem auto;
+    padding-bottom: 1rem;
+}
+.query-section {
+    max-width: 683px;
+    text-align: center;
+    margin: 1rem auto;
+    padding-bottom: 1rem;
+}
+.ctn-section:not(:nth-last-child(1)) {
+    border-bottom: 1px solid #E6E6E6
+}
+.ctn-section .ctn-wrapper, .sec-header {
+    height: 28px;
+    position: relative;
+    width: 200px;
+    margin: 1rem auto;
+}
+.query-section .ctn-wrapper, .sec-header {
+    height: 28px;
+    position: relative;
+    width: 400px;
+    margin: 1rem auto;
+}
+.ctn-text {
+    width: 100%;
+    line-height: 28px;
+    background-color: #E6E6E6;
+    border-radius: 5px;
+}
+input[type="text"].ctn-text,input[type="password"].ctn-text {
+    box-sizing: border-box;
+    padding: 0 0.5rem;
+    border-width: 0.5px;
+    background-color: #fff;
+
+}
+.ctn-label, .sec-header > span {
+    position: absolute;
+    text-align: right;
+    left: -4rem;
+}
+
+.ctn-btn {
+    display: block;
+    color: #fff;
+    background-color: #E86467;
+}
+input[type="submit"].ctn-btn {
+    border: none;
+    background-color: #66CC66;
+}
+
+.btn-y {
+    background-color: rgb(252, 203, 77) !important; 
+}
+.ctn-table .ctn-text {
+    display: inline-block;
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ctn-table-head .ctn-text {
+    background-color: inherit;
+}
+.query-section .ctn-table .ctn-text {
+    display: inline-block;
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.meta {
+    font-size: 0.8rem;
+    color: #666666
+}
+
